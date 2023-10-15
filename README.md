@@ -113,6 +113,7 @@
 - [ActionsRML/delete-workflow-runs](https://github.com/ActionsRML/delete-workflow-runs)
 - [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
 - [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch)
+- [kyoto44/openwrt-ax6s](https://github.com/kyoto44/openwrt-ax6s)
 
 ## License
 
