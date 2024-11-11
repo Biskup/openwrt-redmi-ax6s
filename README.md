@@ -5,11 +5,11 @@
 
 
 # Инструкция по установке для Windows (гайд от [stroti](https://4pda.to/forum/index.php?showuser=4540991))
-1. Скачиваем и устанавливаем через стандартное обновление роутера dev версию официальной прошивки [miwifi_rb03_firmware_stable_1.2.7.bin](https://raw.githubusercontent.com/YangWang92/AX6S-unlock/master/miwifi_rb03_firmware_stable_1.2.7.bin) (MD5: 5eedf1632ac97bb5a6bb072c08603ed7).
+1. Скачиваем и устанавливаем через стандартное обновление роутера dev версию официальной прошивки [miwifi_rb03_firmware_stable_1.2.7.bin](https://raw.githubusercontent.com/YangWang92/AX6S-unlock/master/miwifi_rb03_firmware_stable_1.2.7.bin), [копия](https://github.com/Biskup/openwrt-redmi-ax6s/blob/main/AX6S-unlock/miwifi_rb03_firmware_stable_1.2.7.bin) (MD5: 5eedf1632ac97bb5a6bb072c08603ed7).
 
 2. Скачиваем и устанавливаем [Python](https://www.python.org/ftp/python/3.10.10/python-3.10.10-amd64.exe)
 
-    2.1 Скачиваем [скрипт](https://raw.githubusercontent.com/mikeeq/xiaomi_ax3200_openwrt/main/password.py) перейдя по ссылке и кликнув "Сохранить как" password.py
+    2.1 Скачиваем [скрипт](https://github.com/Biskup/openwrt-redmi-ax6s/blob/main/Python/password.py) перейдя по ссылке и кликнув "Сохранить как" password.py
 
     2.2 Запускаем ранее установленный IDLE (Python 3.10 64-bit) >> File > Open > password.py в открывшимся окне жмем Shift+F5 > в поле ввода вставляем серийный номер роутера и жмем Ok. На выходе получаем пароль от Telnet
 
@@ -40,7 +40,7 @@
     
     5.3. В правой части программы поднимаемся в корневой каталог нажав на пиктограмму папки с стрелкой, после чего находим папку /tmp и переходим в нее
     
-    5.4. Скачиваем прошивку [OpenWRT](https://github.com/kyoto44/openwrt-ax6s/releases), а именно файл openwrt-mediatek-mt7622-xiaomi_redmi-router-ax6s-squashfs-factory.bin и сохраняем ее как factory.bin
+    5.4. Скачиваем прошивку [OpenWRT](https://github.com/Biskup/openwrt-redmi-ax6s/releases), а именно файл openwrt-mediatek-mt7622-xiaomi_redmi-router-ax6s-squashfs-factory.bin и сохраняем ее как factory.bin
 
     5.5. Перетаскиваем наш factory.bin в открытую на WinSCP папку /tmp и дожидаемся загрузки
 
